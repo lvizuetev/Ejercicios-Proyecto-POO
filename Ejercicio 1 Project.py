@@ -100,3 +100,18 @@ while opc !='5':
                 CalCientifica = CalCientifica(n1,n2)
                 Acuadrado= CalCientifica.AreaCuadrado()
                 print(Acuadrado(l1))
+       elif opc == "2": #Menu operacionesNumeros
+        opc2 = ''
+        while opc2 != '11':
+            menu2=Menu("Menú Operación Números",["1)Presentar los números de 1 a n","2)	Sumar los números de 1 a n","3)Múltiplo de cualquier numero", "4)Presentar los divisores de un numero","5)Numero Primo",
+            "6)Factorial de cualquier numero","7)Fibonacci de una serie de n números","8)Perfecto", "9)Primos Gemelos","10)Números Amigos","11)Salir"])
+            opc2 = menu2.menu()
+            Object = Basico()
+            if opc2 == "1":
+                print("1)Presentar los números de 1 a n")
+                n=int(input("Ingrese la cantidad de números a presentar: "))
+                Pre = Object.numerosN(n)
+            opc2 = menu2.menu()
+            elif opc == "2":
+                print
+                 
